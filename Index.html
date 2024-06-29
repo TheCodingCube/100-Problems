@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>100 Problems</title>
+    <link rel= "stylesheet" href="Style.css">
+  </head>
+  <body id="body" style="display: block; position: relative; background-color: rgb(206, 232, 255); height: 100%;"> 
+    <div style="height: 100%;">
+        <div id="progress-bar" class="bar">
+            <button id="pause" class="pause_button" style="position: absolute; top: 2vh; left: 11vw; transform: translate(-50%, -50%); width: 2vw; height: 2vw;" onclick="pause()">||</button>                      
+            <div id="bar" style="background-color:yellow; width: 0%; height: 100%; text-indent: 1dvh; font-size: large;">0%</div>
+            <div id="time" style="font-size: large;">0:00</div>
+            <div id="incorrect" style="font-size: large;">Incorrect: 0</div>
+        </div>
+    </div>
+
+    <div id="finish" style="position: absolute; top: 25vh; left: 50vw; transform: translate(-50%, -50%); font-size: 500%;">YOU FINISHED</div>
+
+    <div style="position: absolute; top: 50vh; left: 50vw; transform: translate(-50%, -50%);">
+        <p id="number1" class="number" style="margin: 0%; margin-left: 3%; text-indent: 1dvh;">15</p>
+        <p id="number2" class="number" style="margin: 0%; margin-left: 3%; margin-bottom: 3%; ">- 9</p>
+        <hr style="margin: 0%; margin-bottom: 3%; width: 66%;">
+        <input id="answer" type="number" style="font-size: 200%; width: 60%" autofocus>
+    </div>
+</body> 
+  <script src="Index.js"></script>
+  </html>
